@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border-bottom: 1px solid #eee;
+}
+
+.navbar a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero span {
+    color: #2563eb;
+}
+
+.hero p {
+    max-width: 650px;
+    margin: 20px auto;
+    color: #555;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 25px;
+}
+
+.social-icons a {
+    margin: 0 12px;
+    font-size: 26px;
+    color: #2563eb;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-4px);
+    color: #1e40af;
+}
+
+/* Sections */
+.section {
+    padding: 70px 80px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.gray {
+    background: #f9fafb;
+}
+
+/* Skills */
+.skill-group {
+    margin-bottom: 30px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skills span {
+    padding: 10px 18px;
+    border-radius: 20px;
+    background: #eef2ff;
+    color: #1e40af;
+    font-size: 14px;
+}
+
+/* Education */
+.edu-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.place {
+    font-weight: 600;
+}
+
+.info {
+    font-size: 14px;
+}
+
+/* Remove underline/underscore from icon links */
+.social-icons a,
+.footer-icons a {
+    text-decoration: none;
+}
+
+.social-icons a:hover,
+.footer-icons a:hover {
+    text-decoration: none;
+}
+
+/* ===== DARK HEADER ===== */
+.navbar {
+    background: #0f172a;
+    border-bottom: none;
+}
+
+.navbar .logo {
+    color: #ffffff;
+}
+
+.navbar a {
+    color: #cbd5f5;
+}
+
+.navbar a:hover {
+    color: #ffffff;
+}
+
+/* ===== DARK FOOTER ===== */
+.footer {
+    background: linear-gradient(135deg, #020617, #000000);
+}
+
+
+/* ===== FOOTER CENTER & COLOR FIX ===== */
+.footer {
+    text-align: center;          /* center all content */
+    color: #ffffff;              /* main text white */
+}
+
+.footer h3 {
+    color: #ffffff;              /* name bright white */
+}
+
+.footer p {
+    color: #93c5fd;              /* soft blue (clearly visible) */
+}
+
+.footer span {
+    color: #cbd5f5;              /* light gray-blue */
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;     /* center icons horizontally */
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-icons a {
+    color: #60a5fa;              /* blue icons */
+}
+
+.footer-icons a:hover {
+    color: #ffffff;              /* white on hover */
+}
+
+
