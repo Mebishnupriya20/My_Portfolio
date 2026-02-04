@@ -16,6 +16,23 @@
 </head>
 <body>
 
+<!-- Accent Color Switcher (CSS only) -->
+<div class="theme-switcher">
+    <input type="radio" name="accent" id="pink" checked>
+    <input type="radio" name="accent" id="beige">
+    <input type="radio" name="accent" id="lavender">
+
+    <label for="pink" title="Pink"></label>
+    <label for="beige" title="Beige"></label>
+    <label for="lavender" title="Lavender"></label>
+</div>
+
+<!-- Instagram-style blur background -->
+<div class="bg-blur"></div>
+
+<!-- Page Content Wrapper -->
+<div class="page-content">
+
 <!-- Navbar -->
 <header class="navbar">
     <h2 class="logo">Bishnu Priya Sahu</h2>
@@ -45,6 +62,23 @@
         <a href="mailto:bishnupriya.ss2005@gmail.com">
             <i class="fas fa-envelope"></i>
         </a>
+
+        <div class="resume-buttons">
+            <a 
+                href="https://drive.google.com/file/d/1hM9bUs-_BJmZgBrFZ2oL8A9gcFSkoXA6/view?usp=sharing"
+                target="_blank"
+                class="resume-btn view"
+            >
+                View Resume
+            </a>
+
+            <a 
+                href="https://drive.google.com/uc?export=download&id=1hM9bUs-_BJmZgBrFZ2oL8A9gcFSkoXA6"
+                class="resume-btn download"
+            >
+                Download Resume
+            </a>
+        </div>
     </div>
 </section>
 
@@ -52,7 +86,7 @@
 <section id="skills" class="section">
     <h2>Skills</h2>
 
-    <div class="skill-group">
+    <div class="skill-group hover-card">
         <h3>Programming Languages</h3>
         <div class="skills">
             <span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span>
@@ -60,14 +94,14 @@
         </div>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group hover-card">
         <h3>Frameworks & Libraries</h3>
         <div class="skills">
             <span>React.js</span><span>Node.js</span><span>Bootstrap</span><span>Tailwind CSS</span>
         </div>
     </div>
 
-    <div class="skill-group">
+    <div class="skill-group hover-card">
         <h3>Databases & Tools</h3>
         <div class="skills">
             <span>MySQL</span><span>SQLite</span><span>Oracle</span>
@@ -80,7 +114,7 @@
 <section id="education" class="section gray">
     <h2>Education</h2>
 
-    <div class="edu-card">
+    <div class="edu-card hover-card">
         <h3>B.Sc in Computer Science</h3>
         <p class="place">Saraswati Degree Vidya Mandir, Neelakanthnagar, Odisha</p>
         <p class="info">SGPA: <strong>9.8</strong> | Sep 2023 – Mar 2026</p>
@@ -90,7 +124,7 @@
         </p>
     </div>
 
-    <div class="edu-card">
+    <div class="edu-card hover-card">
         <h3>Higher Secondary (Science)</h3>
         <p class="place">Saraswati Shishu Vidya Mandir, Brahmapur, Odisha</p>
         <p class="info">Percentage: <strong>77%</strong> | Sep 2021 – Mar 2023</p>
@@ -105,7 +139,7 @@
 <section id="projects" class="section">
     <h2>Projects</h2>
 
-    <div class="project-card">
+    <div class="project-card hover-card">
         <h3>Railway Ticket Reservation System</h3>
         <p class="tag">Full-Stack Web Application</p>
 
@@ -123,17 +157,17 @@
     <h2>Languages</h2>
 
     <div class="languages">
-        <div class="lang-card">
+        <div class="lang-card hover-card">
             <h4>English</h4>
             <p>Professional Proficiency</p>
         </div>
 
-        <div class="lang-card">
+        <div class="lang-card hover-card">
             <h4>Hindi</h4>
             <p>Native Proficiency</p>
         </div>
 
-        <div class="lang-card">
+        <div class="lang-card hover-card">
             <h4>Odia</h4>
             <p>Native Proficiency</p>
         </div>
@@ -160,5 +194,6 @@
     <span>© 2026 All Rights Reserved</span>
 </footer>
 
+</div>
 </body>
 </html>
